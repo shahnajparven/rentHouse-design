@@ -1,0 +1,33 @@
+.products-container {
+  padding-top: 25vh;
+}
+
+.productsHeading {
+  width:100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+  padding: 2vmax;
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.categoryBtn {
+  border: none;
+  padding: 8px 25px 8px 25px;
+  color: white;
+  margin-bottom: 5%;
+  font: 500 1.2vmax "Roboto";
+  font-weight: lighter;
+  border-radius: 0.3rem;
+}
+
+.notFound {
+  font-size: 3rem;
+}
